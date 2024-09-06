@@ -14,7 +14,7 @@ export default function Header({theme}) {
       <div className="header-content">
         <h2 className="title">
           {' '}
-          <a href="/">Where in the world?</a>{' '}
+          <a href="/">Where in the worlds?</a>{' '}
         </h2>
         <p
           onClick={() =>{
