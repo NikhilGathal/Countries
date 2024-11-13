@@ -17,6 +17,8 @@ export default function CountryDetail() {
   // console.log(state)
 
   const windowSize = usewindowsize()
+  console.log('hi');
+  
 
   function updateCountryData(data) {
     setCountryData({
@@ -34,6 +36,7 @@ export default function CountryDetail() {
         .join(', '),
       borders: [],
     })
+
 
     if (!data.borders) {
       data.borders = []

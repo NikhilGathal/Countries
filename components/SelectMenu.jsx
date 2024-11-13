@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function SelectMenu({setquery}) {
   return (
     <select className="filter-by-region " onChange={ (e) => 
