@@ -123,6 +123,7 @@ a {
 }
 
 .search-container {
+ 
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
   max-width: 350px;
   width: 100%;
@@ -138,6 +139,7 @@ a {
 }
 
 .search-container input {
+  cursor: pointer;
   border: none;
   outline: none;
   padding: 16px;
@@ -147,6 +149,7 @@ a {
 }
 
 .filter-by-region {
+  cursor: pointer;
   width: 250px;
   border: none;
   padding: 16px;
